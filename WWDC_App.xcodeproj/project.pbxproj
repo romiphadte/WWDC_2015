@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B501AEC31FE00E79653 /* AppDelegate.swift */; };
 		91AA4B531AEC31FE00E79653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B521AEC31FE00E79653 /* ViewController.swift */; };
-		91AA4B561AEC31FE00E79653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B541AEC31FE00E79653 /* Main.storyboard */; };
 		91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B571AEC31FE00E79653 /* Images.xcassets */; };
 		91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */; };
 		91AA4B671AEC31FE00E79653 /* WWDC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B661AEC31FE00E79653 /* WWDC_AppTests.swift */; };
+		91AA4B711AEC32A900E79653 /* milkyway.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B701AEC32A900E79653 /* milkyway.png */; };
+		91AA4B741AEC353F00E79653 /* Apple_logo_black.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */; };
+		91AA4B761AEC36AA00E79653 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B751AEC36AA00E79653 /* messages.png */; };
+		91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */; };
+		91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */; };
+		91AA4B7F1AEC63A400E79653 /* AppScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +35,20 @@
 		91AA4B4F1AEC31FE00E79653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91AA4B501AEC31FE00E79653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91AA4B521AEC31FE00E79653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91AA4B551AEC31FE00E79653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91AA4B571AEC31FE00E79653 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91AA4B5A1AEC31FE00E79653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91AA4B601AEC31FE00E79653 /* WWDC_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AA4B651AEC31FE00E79653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91AA4B661AEC31FE00E79653 /* WWDC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC_AppTests.swift; sourceTree = "<group>"; };
+		91AA4B701AEC32A900E79653 /* milkyway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkyway.png; sourceTree = "<group>"; };
+		91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple_logo_black.svg.png; sourceTree = "<group>"; };
+		91AA4B751AEC36AA00E79653 /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
+		91AA4B771AEC3ED600E79653 /* WWDC_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC_App-Bridging-Header.h"; sourceTree = "<group>"; };
+		91AA4B781AEC3ED600E79653 /* RNPHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPHomeScreenViewController.h; sourceTree = "<group>"; };
+		91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPHomeScreenViewController.m; sourceTree = "<group>"; };
+		91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNPHomeScreenViewController.xib; sourceTree = "<group>"; };
+		91AA4B7D1AEC63A400E79653 /* AppScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppScreenViewController.h; sourceTree = "<group>"; };
+		91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppScreenViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +92,16 @@
 			children = (
 				91AA4B501AEC31FE00E79653 /* AppDelegate.swift */,
 				91AA4B521AEC31FE00E79653 /* ViewController.swift */,
-				91AA4B541AEC31FE00E79653 /* Main.storyboard */,
+				91AA4B781AEC3ED600E79653 /* RNPHomeScreenViewController.h */,
+				91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */,
+				91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */,
+				91AA4B7D1AEC63A400E79653 /* AppScreenViewController.h */,
+				91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */,
 				91AA4B571AEC31FE00E79653 /* Images.xcassets */,
 				91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */,
+				91AA4B721AEC32CF00E79653 /* images */,
 				91AA4B4E1AEC31FE00E79653 /* Supporting Files */,
+				91AA4B771AEC3ED600E79653 /* WWDC_App-Bridging-Header.h */,
 			);
 			path = WWDC_App;
 			sourceTree = "<group>";
@@ -110,6 +129,16 @@
 				91AA4B651AEC31FE00E79653 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91AA4B721AEC32CF00E79653 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				91AA4B751AEC36AA00E79653 /* messages.png */,
+				91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */,
+				91AA4B701AEC32A900E79653 /* milkyway.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AA4B561AEC31FE00E79653 /* Main.storyboard in Resources */,
+				91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */,
+				91AA4B761AEC36AA00E79653 /* messages.png in Resources */,
 				91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */,
+				91AA4B741AEC353F00E79653 /* Apple_logo_black.svg.png in Resources */,
+				91AA4B711AEC32A900E79653 /* milkyway.png in Resources */,
 				91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AA4B7F1AEC63A400E79653 /* AppScreenViewController.m in Sources */,
 				91AA4B531AEC31FE00E79653 /* ViewController.swift in Sources */,
 				91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */,
+				91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +270,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91AA4B541AEC31FE00E79653 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91AA4B551AEC31FE00E79653 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -336,9 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WWDC_App/WWDC_App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = WWDC_App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WWDC_App/WWDC_App-Bridging-Header.h";
 			};
 			name = Release;
 		};
