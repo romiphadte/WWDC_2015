@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController">
+            <connections>
+                <outlet property="helloLabel" destination="qfH-lZ-zoH" id="JE4-nf-aXO"/>
+                <outlet property="slideLabel" destination="Ctk-rt-WKt" id="PV0-WU-7zU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="601"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfH-lZ-zoH">
+                    <rect key="frame" x="244" y="169" width="112" height="64"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="54"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ctk-rt-WKt">
+                    <rect key="frame" x="285" y="488" width="30" height="33"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
+                    <state key="normal">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showHomeScreen:" destination="-1" eventType="touchUpInside" id="fhn-Yq-OY0"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best with a iPhone 6 or 6 Plus. " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWv-BC-alg">
+                    <rect key="frame" x="222" y="584" width="156" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="156" id="tD2-mO-UKQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="10"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="qfH-lZ-zoH" secondAttribute="centerX" id="8PL-6u-SZf"/>
+                <constraint firstAttribute="centerX" secondItem="Ctk-rt-WKt" secondAttribute="centerX" id="CDW-AX-KqT"/>
+                <constraint firstAttribute="bottom" secondItem="QWv-BC-alg" secondAttribute="bottom" constant="5" id="So0-cE-t4b"/>
+                <constraint firstAttribute="centerX" secondItem="QWv-BC-alg" secondAttribute="centerX" id="acK-in-NZh"/>
+                <constraint firstAttribute="bottom" secondItem="Ctk-rt-WKt" secondAttribute="bottom" constant="80" id="nd3-be-qAh"/>
+                <constraint firstAttribute="centerY" secondItem="qfH-lZ-zoH" secondAttribute="centerY" constant="100" id="s1t-l6-9Fk"/>
+            </constraints>
+            <point key="canvasLocation" x="257" y="353"/>
+        </view>
+    </objects>
+</document>

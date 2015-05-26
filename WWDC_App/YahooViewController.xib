@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YahooViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I2Q-nD-Xy8">
+                    <rect key="frame" x="0.0" y="-8" width="600" height="600"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yahooPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="FDE-aD-ve8">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.51314252552428063" green="0.15888775504615366" blue="0.80846583843231201" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="FDE-aD-ve8" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8cW-d0-PbQ"/>
+                <constraint firstAttribute="bottom" secondItem="FDE-aD-ve8" secondAttribute="bottom" id="WSa-TA-lTS"/>
+                <constraint firstItem="FDE-aD-ve8" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ddB-fq-adc"/>
+                <constraint firstAttribute="trailing" secondItem="FDE-aD-ve8" secondAttribute="trailing" id="pze-ca-TVu"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="yahooPhoto.png" width="1242" height="2208"/>
+    </resources>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HomeScreenModel.swift">
+   </FileRef>
+   <FileRef
+      location = "group:HomePageViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:Robotics.png">
+   </FileRef>
+   <FileRef
+      location = "group:RNPHomeScreenViewController.xib">
+   </FileRef>
+   <FileRef
+      location = "group:UC Berkeley.png">
+   </FileRef>
+   <FileRef
+      location = "group:RNPHomeScreenViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:Pinterest.png">
+   </FileRef>
+   <FileRef
+      location = "group:Yahoo.png">
+   </FileRef>
+   <FileRef
+      location = "group:Info.plist">
+   </FileRef>
+   <FileRef
+      location = "group:AppDelegate.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:AppViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:RNPHomeScreenViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:MhacksViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:MhacksViewController.xib">
+   </FileRef>
+   <FileRef
+      location = "group:RNPApps.h">
+   </FileRef>
+   <FileRef
+      location = "group:HomePageViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:MhacksViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:WWDC_App-Bridging-Header.h">
+   </FileRef>
+   <FileRef
+      location = "group:Nest.png">
+   </FileRef>
+   <FileRef
+      location = "group:home_screen.jpg">
+   </FileRef>
+   <Group
+      location = "group:Base.lproj"
+      name = "Base.lproj">
+      <FileRef
+         location = "group:LaunchScreen.xib">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Messages.png">
+   </FileRef>
+   <FileRef
+      location = "group:Apple_logo_black.svg.png">
+   </FileRef>
+   <FileRef
+      location = "group:milkyway.png">
+   </FileRef>
+   <Group
+      location = "group:Images.xcassets"
+      name = "Images.xcassets">
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

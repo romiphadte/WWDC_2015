@@ -8,16 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B501AEC31FE00E79653 /* AppDelegate.swift */; };
-		91AA4B531AEC31FE00E79653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B521AEC31FE00E79653 /* ViewController.swift */; };
 		91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B571AEC31FE00E79653 /* Images.xcassets */; };
 		91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */; };
 		91AA4B671AEC31FE00E79653 /* WWDC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B661AEC31FE00E79653 /* WWDC_AppTests.swift */; };
 		91AA4B711AEC32A900E79653 /* milkyway.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B701AEC32A900E79653 /* milkyway.png */; };
 		91AA4B741AEC353F00E79653 /* Apple_logo_black.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */; };
-		91AA4B761AEC36AA00E79653 /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B751AEC36AA00E79653 /* messages.png */; };
+		91AA4B761AEC36AA00E79653 /* Messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B751AEC36AA00E79653 /* Messages.png */; };
 		91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */; };
 		91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */; };
-		91AA4B7F1AEC63A400E79653 /* AppScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */; };
+		91AA4B7F1AEC63A400E79653 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */; };
+		91AA4B811AEC6C3500E79653 /* home_screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B801AEC6C3500E79653 /* home_screen.jpg */; };
+		91AA4B831AEC79A400E79653 /* Nest.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B821AEC79A400E79653 /* Nest.png */; };
+		91AA4B851AEC7A5200E79653 /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */; };
+		91AA4B8B1AEC925900E79653 /* UIButtonWithIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */; };
+		91AA4B931AEC96A800E79653 /* MhacksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B911AEC96A800E79653 /* MhacksViewController.m */; };
+		91AA4B941AEC96A800E79653 /* MhacksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B921AEC96A800E79653 /* MhacksViewController.xib */; };
+		91AA4B981AECA74500E79653 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B971AECA74500E79653 /* AppViewController.m */; };
+		91AA4B9E1AECD7D200E79653 /* Yahoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B9D1AECD7D200E79653 /* Yahoo.png */; };
+		91AA4BA01AECD89400E79653 /* Pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B9F1AECD89400E79653 /* Pinterest.png */; };
+		91AA4BA21AECDCFF00E79653 /* UC Berkeley.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */; };
+		91AA4BA41AECDF5300E79653 /* Robotics.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BA31AECDF5300E79653 /* Robotics.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +44,6 @@
 		91AA4B4B1AEC31FE00E79653 /* WWDC_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AA4B4F1AEC31FE00E79653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91AA4B501AEC31FE00E79653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91AA4B521AEC31FE00E79653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91AA4B571AEC31FE00E79653 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91AA4B5A1AEC31FE00E79653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91AA4B601AEC31FE00E79653 /* WWDC_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,13 +51,28 @@
 		91AA4B661AEC31FE00E79653 /* WWDC_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC_AppTests.swift; sourceTree = "<group>"; };
 		91AA4B701AEC32A900E79653 /* milkyway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milkyway.png; sourceTree = "<group>"; };
 		91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple_logo_black.svg.png; sourceTree = "<group>"; };
-		91AA4B751AEC36AA00E79653 /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
+		91AA4B751AEC36AA00E79653 /* Messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Messages.png; sourceTree = "<group>"; };
 		91AA4B771AEC3ED600E79653 /* WWDC_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWDC_App-Bridging-Header.h"; sourceTree = "<group>"; };
 		91AA4B781AEC3ED600E79653 /* RNPHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPHomeScreenViewController.h; sourceTree = "<group>"; };
 		91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPHomeScreenViewController.m; sourceTree = "<group>"; };
 		91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNPHomeScreenViewController.xib; sourceTree = "<group>"; };
-		91AA4B7D1AEC63A400E79653 /* AppScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppScreenViewController.h; sourceTree = "<group>"; };
-		91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppScreenViewController.m; sourceTree = "<group>"; };
+		91AA4B7D1AEC63A400E79653 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		91AA4B801AEC6C3500E79653 /* home_screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen.jpg; sourceTree = "<group>"; };
+		91AA4B821AEC79A400E79653 /* Nest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nest.png; sourceTree = "<group>"; };
+		91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		91AA4B891AEC925900E79653 /* UIButtonWithIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIButtonWithIndex.h; path = ../UIButtonWithIndex.h; sourceTree = "<group>"; };
+		91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIButtonWithIndex.m; path = ../UIButtonWithIndex.m; sourceTree = "<group>"; };
+		91AA4B901AEC96A800E79653 /* MhacksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MhacksViewController.h; sourceTree = "<group>"; };
+		91AA4B911AEC96A800E79653 /* MhacksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MhacksViewController.m; sourceTree = "<group>"; };
+		91AA4B921AEC96A800E79653 /* MhacksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MhacksViewController.xib; sourceTree = "<group>"; };
+		91AA4B951AECA08A00E79653 /* RNPApps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPApps.h; sourceTree = "<group>"; };
+		91AA4B961AECA74500E79653 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
+		91AA4B971AECA74500E79653 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
+		91AA4B9D1AECD7D200E79653 /* Yahoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yahoo.png; sourceTree = "<group>"; };
+		91AA4B9F1AECD89400E79653 /* Pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pinterest.png; sourceTree = "<group>"; };
+		91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UC Berkeley.png"; sourceTree = "<group>"; };
+		91AA4BA31AECDF5300E79653 /* Robotics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Robotics.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +114,16 @@
 		91AA4B4D1AEC31FE00E79653 /* WWDC_App */ = {
 			isa = PBXGroup;
 			children = (
+				91AA4B8C1AEC965D00E79653 /* Apps */,
+				91AA4B891AEC925900E79653 /* UIButtonWithIndex.h */,
+				91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */,
 				91AA4B501AEC31FE00E79653 /* AppDelegate.swift */,
-				91AA4B521AEC31FE00E79653 /* ViewController.swift */,
 				91AA4B781AEC3ED600E79653 /* RNPHomeScreenViewController.h */,
+				91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */,
 				91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */,
 				91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */,
-				91AA4B7D1AEC63A400E79653 /* AppScreenViewController.h */,
-				91AA4B7E1AEC63A400E79653 /* AppScreenViewController.m */,
+				91AA4B7D1AEC63A400E79653 /* HomePageViewController.h */,
+				91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */,
 				91AA4B571AEC31FE00E79653 /* Images.xcassets */,
 				91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */,
 				91AA4B721AEC32CF00E79653 /* images */,
@@ -134,11 +161,30 @@
 		91AA4B721AEC32CF00E79653 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				91AA4B751AEC36AA00E79653 /* messages.png */,
+				91AA4B751AEC36AA00E79653 /* Messages.png */,
 				91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */,
+				91AA4B821AEC79A400E79653 /* Nest.png */,
+				91AA4BA31AECDF5300E79653 /* Robotics.png */,
+				91AA4B9D1AECD7D200E79653 /* Yahoo.png */,
+				91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */,
+				91AA4B9F1AECD89400E79653 /* Pinterest.png */,
+				91AA4B801AEC6C3500E79653 /* home_screen.jpg */,
 				91AA4B701AEC32A900E79653 /* milkyway.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		91AA4B8C1AEC965D00E79653 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				91AA4B951AECA08A00E79653 /* RNPApps.h */,
+				91AA4B901AEC96A800E79653 /* MhacksViewController.h */,
+				91AA4B911AEC96A800E79653 /* MhacksViewController.m */,
+				91AA4B921AEC96A800E79653 /* MhacksViewController.xib */,
+				91AA4B961AECA74500E79653 /* AppViewController.h */,
+				91AA4B971AECA74500E79653 /* AppViewController.m */,
+			);
+			name = Apps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,11 +268,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */,
-				91AA4B761AEC36AA00E79653 /* messages.png in Resources */,
+				91AA4B761AEC36AA00E79653 /* Messages.png in Resources */,
+				91AA4BA01AECD89400E79653 /* Pinterest.png in Resources */,
+				91AA4BA41AECDF5300E79653 /* Robotics.png in Resources */,
+				91AA4BA21AECDCFF00E79653 /* UC Berkeley.png in Resources */,
+				91AA4B941AEC96A800E79653 /* MhacksViewController.xib in Resources */,
+				91AA4B9E1AECD7D200E79653 /* Yahoo.png in Resources */,
 				91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */,
 				91AA4B741AEC353F00E79653 /* Apple_logo_black.svg.png in Resources */,
 				91AA4B711AEC32A900E79653 /* milkyway.png in Resources */,
+				91AA4B831AEC79A400E79653 /* Nest.png in Resources */,
 				91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */,
+				91AA4B811AEC6C3500E79653 /* home_screen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91AA4B7F1AEC63A400E79653 /* AppScreenViewController.m in Sources */,
-				91AA4B531AEC31FE00E79653 /* ViewController.swift in Sources */,
+				91AA4B851AEC7A5200E79653 /* HomeScreenModel.swift in Sources */,
+				91AA4B7F1AEC63A400E79653 /* HomePageViewController.m in Sources */,
+				91AA4B8B1AEC925900E79653 /* UIButtonWithIndex.m in Sources */,
+				91AA4B931AEC96A800E79653 /* MhacksViewController.m in Sources */,
+				91AA4B981AECA74500E79653 /* AppViewController.m in Sources */,
 				91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */,
 				91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */,
 			);
@@ -436,6 +492,7 @@
 				91AA4B6C1AEC31FE00E79653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91AA4B6D1AEC31FE00E79653 /* Build configuration list for PBXNativeTarget "WWDC_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +501,7 @@
 				91AA4B6F1AEC31FE00E79653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

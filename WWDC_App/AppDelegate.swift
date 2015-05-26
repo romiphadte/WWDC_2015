@@ -13,17 +13,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        //UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle., animated: false)
         
-        let initialViewController  = RNPHomeScreenViewController(nibName:"RNPHomeScreenViewController",bundle:nil)
-        
+        //let initialViewController  = RNPHomeScreenViewController(nibName:"RNPHomeScreenViewController",bundle:nil)
+        let initialViewController  = WelcomeViewController(nibName:"WelcomeViewController",bundle:nil)
+        let nav = UINavigationController()
+        nav.setViewControllers([initialViewController], animated: false)
+        nav.setNavigationBarHidden(true, animated: false)
         let frame = UIScreen.mainScreen().bounds
         window = UIWindow(frame: frame)
         
-        window!.rootViewController = initialViewController
+        window!.rootViewController = nav//initialViewController
         window!.makeKeyAndVisible()
         
         
