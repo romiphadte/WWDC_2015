@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA8880BBCAEC7B4EF43BF1F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE7DBEA439C7321A1FF2A48 /* libPods.a */; };
+		9106BD781AED88C90041C2C2 /* roboticsPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD771AED88C90041C2C2 /* roboticsPhoto.png */; };
+		9106BD7C1AED8C3D0041C2C2 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9106BD7A1AED8C3D0041C2C2 /* ContactsViewController.m */; };
+		9106BD7D1AED8C3D0041C2C2 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD7B1AED8C3D0041C2C2 /* ContactsViewController.xib */; };
+		9106BD7F1AED92500041C2C2 /* contacts_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD7E1AED92500041C2C2 /* contacts_photo.jpg */; };
+		9106BD811AED93E40041C2C2 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD801AED93E40041C2C2 /* Contacts.png */; };
+		9106BD831AED9DE50041C2C2 /* backgroundPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD821AED9DE50041C2C2 /* backgroundPhoto.png */; };
+		9106BD851AED9F9F0041C2C2 /* backgroundFlagPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD841AED9F9F0041C2C2 /* backgroundFlagPhoto.png */; };
+		9106BD871AEDA41A0041C2C2 /* machineLearningBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9106BD861AEDA41A0041C2C2 /* machineLearningBackground.png */; };
+		91285BF91AEDAC91003DC664 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91285BF71AEDAC91003DC664 /* MessagesViewController.m */; };
+		91285BFA1AEDAC91003DC664 /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91285BF81AEDAC91003DC664 /* MessagesViewController.xib */; };
+		916D2C941AF0AF21001EAF91 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D2C921AF0AF21001EAF91 /* WelcomeViewController.m */; };
+		916D2C951AF0AF21001EAF91 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916D2C931AF0AF21001EAF91 /* WelcomeViewController.xib */; };
+		916D2C971AF0DADC001EAF91 /* mailPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D2C961AF0DADC001EAF91 /* mailPhoto.png */; };
+		916D2C991AF0DD8E001EAF91 /* messagesPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D2C981AF0DD8E001EAF91 /* messagesPhoto.png */; };
+		916D2C9B1AF0E2DE001EAF91 /* topSafari.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D2C9A1AF0E2DE001EAF91 /* topSafari.png */; };
+		916D2C9D1AF0E31C001EAF91 /* bottomSafari.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D2C9C1AF0E31C001EAF91 /* bottomSafari.png */; };
+		916D2CA41AF0EE05001EAF91 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D2CA31AF0EE05001EAF91 /* AudioController.m */; };
+		916D2CAB1AF0F5B4001EAF91 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D2CAA1AF0F5B4001EAF91 /* YoutubeViewController.m */; };
+		916D2CB51AF0FAA0001EAF91 /* Youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D2CB41AF0FAA0001EAF91 /* Youtube.png */; };
 		91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B501AEC31FE00E79653 /* AppDelegate.swift */; };
 		91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B571AEC31FE00E79653 /* Images.xcassets */; };
 		91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B591AEC31FE00E79653 /* LaunchScreen.xib */; };
@@ -17,17 +37,49 @@
 		91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */; };
 		91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */; };
 		91AA4B7F1AEC63A400E79653 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */; };
-		91AA4B811AEC6C3500E79653 /* home_screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B801AEC6C3500E79653 /* home_screen.jpg */; };
 		91AA4B831AEC79A400E79653 /* Nest.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B821AEC79A400E79653 /* Nest.png */; };
 		91AA4B851AEC7A5200E79653 /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */; };
-		91AA4B8B1AEC925900E79653 /* UIButtonWithIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */; };
 		91AA4B931AEC96A800E79653 /* MhacksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B911AEC96A800E79653 /* MhacksViewController.m */; };
 		91AA4B941AEC96A800E79653 /* MhacksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B921AEC96A800E79653 /* MhacksViewController.xib */; };
 		91AA4B981AECA74500E79653 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4B971AECA74500E79653 /* AppViewController.m */; };
 		91AA4B9E1AECD7D200E79653 /* Yahoo.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B9D1AECD7D200E79653 /* Yahoo.png */; };
 		91AA4BA01AECD89400E79653 /* Pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4B9F1AECD89400E79653 /* Pinterest.png */; };
-		91AA4BA21AECDCFF00E79653 /* UC Berkeley.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */; };
 		91AA4BA41AECDF5300E79653 /* Robotics.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BA31AECDF5300E79653 /* Robotics.png */; };
+		91AA4BA71AECE12100E79653 /* UIButtonWithIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BA61AECE12100E79653 /* UIButtonWithIndex.m */; };
+		91AA4BAB1AECE4C600E79653 /* Machine_Learning.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BAA1AECE4C600E79653 /* Machine_Learning.png */; };
+		91AA4BAD1AECEC1900E79653 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BAC1AECEC1900E79653 /* Background.png */; };
+		91AA4BB11AECFE1800E79653 /* UC_Berkeley.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BB01AECFE1800E79653 /* UC_Berkeley.png */; };
+		91AA4BB31AECFFCB00E79653 /* Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BB21AECFFCB00E79653 /* Phone.png */; };
+		91AA4BB51AED007C00E79653 /* Mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BB41AED007C00E79653 /* Mail.png */; };
+		91AA4BB71AED00FE00E79653 /* Safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BB61AED00FE00E79653 /* Safari.png */; };
+		91AA4BB91AED031D00E79653 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BB81AED031D00E79653 /* Music.png */; };
+		91AA4BBC1AED0B2E00E79653 /* PhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BBB1AED0B2E00E79653 /* PhoneViewController.m */; };
+		91AA4BBF1AED0CB300E79653 /* phoneScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BBE1AED0CB300E79653 /* phoneScreen.png */; };
+		91AA4BC61AED17D000E79653 /* RoboticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BC41AED17D000E79653 /* RoboticsViewController.m */; };
+		91AA4BC71AED17D000E79653 /* RoboticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BC51AED17D000E79653 /* RoboticsViewController.xib */; };
+		91AA4BCB1AED190100E79653 /* UC BerkeleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BC91AED190100E79653 /* UC BerkeleyViewController.m */; };
+		91AA4BCC1AED190100E79653 /* UC BerkeleyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BCA1AED190100E79653 /* UC BerkeleyViewController.xib */; };
+		91AA4BD01AED193200E79653 /* YahooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BCE1AED193200E79653 /* YahooViewController.m */; };
+		91AA4BD11AED193200E79653 /* YahooViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BCF1AED193200E79653 /* YahooViewController.xib */; };
+		91AA4BD51AED1A3E00E79653 /* NestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BD31AED1A3E00E79653 /* NestViewController.m */; };
+		91AA4BD61AED1A3E00E79653 /* NestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BD41AED1A3E00E79653 /* NestViewController.xib */; };
+		91AA4BDA1AED1AAB00E79653 /* PinterestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BD81AED1AAB00E79653 /* PinterestViewController.m */; };
+		91AA4BDB1AED1AAB00E79653 /* PinterestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BD91AED1AAB00E79653 /* PinterestViewController.xib */; };
+		91AA4BDF1AED1B1400E79653 /* Machine LearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BDD1AED1B1400E79653 /* Machine LearningViewController.m */; };
+		91AA4BE01AED1B1400E79653 /* Machine LearningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BDE1AED1B1400E79653 /* Machine LearningViewController.xib */; };
+		91AA4BE41AED1B5C00E79653 /* BackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BE21AED1B5C00E79653 /* BackgroundViewController.m */; };
+		91AA4BE51AED1B5C00E79653 /* BackgroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BE31AED1B5C00E79653 /* BackgroundViewController.xib */; };
+		91AA4BE91AED1D3100E79653 /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BE71AED1D3100E79653 /* MailViewController.m */; };
+		91AA4BEA1AED1D3100E79653 /* MailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BE81AED1D3100E79653 /* MailViewController.xib */; };
+		91AA4BEE1AED1D6700E79653 /* SafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BEC1AED1D6700E79653 /* SafariViewController.m */; };
+		91AA4BEF1AED1D6700E79653 /* SafariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BED1AED1D6700E79653 /* SafariViewController.xib */; };
+		91AA4BF31AED1D9900E79653 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AA4BF11AED1D9900E79653 /* MusicViewController.m */; };
+		91AA4BF41AED1D9900E79653 /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BF21AED1D9900E79653 /* MusicViewController.xib */; };
+		91AA4BF61AED1FA600E79653 /* robot_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BF51AED1FA600E79653 /* robot_picture.png */; };
+		91AA4BF81AED26B800E79653 /* pinterestPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BF71AED26B800E79653 /* pinterestPhoto.png */; };
+		91AA4BFA1AED27DE00E79653 /* nestPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4BF91AED27DE00E79653 /* nestPhoto.png */; };
+		91AA4C041AED352E00E79653 /* yahooPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4C031AED352E00E79653 /* yahooPhoto.png */; };
+		91AA4C081AED83A400E79653 /* BerkeleyImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AA4C071AED83A400E79653 /* BerkeleyImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +93,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D4853E064143BBCFA23B761 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9106BD771AED88C90041C2C2 /* roboticsPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roboticsPhoto.png; sourceTree = "<group>"; };
+		9106BD791AED8C3D0041C2C2 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		9106BD7A1AED8C3D0041C2C2 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		9106BD7B1AED8C3D0041C2C2 /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		9106BD7E1AED92500041C2C2 /* contacts_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = contacts_photo.jpg; sourceTree = "<group>"; };
+		9106BD801AED93E40041C2C2 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		9106BD821AED9DE50041C2C2 /* backgroundPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundPhoto.png; sourceTree = "<group>"; };
+		9106BD841AED9F9F0041C2C2 /* backgroundFlagPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundFlagPhoto.png; sourceTree = "<group>"; };
+		9106BD861AEDA41A0041C2C2 /* machineLearningBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machineLearningBackground.png; sourceTree = "<group>"; };
+		91285BF61AEDAC91003DC664 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		91285BF71AEDAC91003DC664 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		91285BF81AEDAC91003DC664 /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
+		916D2C911AF0AF21001EAF91 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		916D2C921AF0AF21001EAF91 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		916D2C931AF0AF21001EAF91 /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		916D2C961AF0DADC001EAF91 /* mailPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mailPhoto.png; sourceTree = "<group>"; };
+		916D2C981AF0DD8E001EAF91 /* messagesPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messagesPhoto.png; sourceTree = "<group>"; };
+		916D2C9A1AF0E2DE001EAF91 /* topSafari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topSafari.png; sourceTree = "<group>"; };
+		916D2C9C1AF0E31C001EAF91 /* bottomSafari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomSafari.png; sourceTree = "<group>"; };
+		916D2CA21AF0EE05001EAF91 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		916D2CA31AF0EE05001EAF91 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		916D2CA91AF0F5B4001EAF91 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		916D2CAA1AF0F5B4001EAF91 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		916D2CB41AF0FAA0001EAF91 /* Youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Youtube.png; sourceTree = "<group>"; };
 		91AA4B4B1AEC31FE00E79653 /* WWDC_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WWDC_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91AA4B4F1AEC31FE00E79653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91AA4B501AEC31FE00E79653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,11 +135,8 @@
 		91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RNPHomeScreenViewController.xib; sourceTree = "<group>"; };
 		91AA4B7D1AEC63A400E79653 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
-		91AA4B801AEC6C3500E79653 /* home_screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen.jpg; sourceTree = "<group>"; };
 		91AA4B821AEC79A400E79653 /* Nest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nest.png; sourceTree = "<group>"; };
 		91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
-		91AA4B891AEC925900E79653 /* UIButtonWithIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIButtonWithIndex.h; path = ../UIButtonWithIndex.h; sourceTree = "<group>"; };
-		91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIButtonWithIndex.m; path = ../UIButtonWithIndex.m; sourceTree = "<group>"; };
 		91AA4B901AEC96A800E79653 /* MhacksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MhacksViewController.h; sourceTree = "<group>"; };
 		91AA4B911AEC96A800E79653 /* MhacksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MhacksViewController.m; sourceTree = "<group>"; };
 		91AA4B921AEC96A800E79653 /* MhacksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MhacksViewController.xib; sourceTree = "<group>"; };
@@ -71,8 +145,56 @@
 		91AA4B971AECA74500E79653 /* AppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = "<group>"; };
 		91AA4B9D1AECD7D200E79653 /* Yahoo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yahoo.png; sourceTree = "<group>"; };
 		91AA4B9F1AECD89400E79653 /* Pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pinterest.png; sourceTree = "<group>"; };
-		91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UC Berkeley.png"; sourceTree = "<group>"; };
 		91AA4BA31AECDF5300E79653 /* Robotics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Robotics.png; sourceTree = "<group>"; };
+		91AA4BA51AECE12100E79653 /* UIButtonWithIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonWithIndex.h; sourceTree = "<group>"; };
+		91AA4BA61AECE12100E79653 /* UIButtonWithIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonWithIndex.m; sourceTree = "<group>"; };
+		91AA4BAA1AECE4C600E79653 /* Machine_Learning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Machine_Learning.png; sourceTree = "<group>"; };
+		91AA4BAC1AECEC1900E79653 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		91AA4BB01AECFE1800E79653 /* UC_Berkeley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UC_Berkeley.png; sourceTree = "<group>"; };
+		91AA4BB21AECFFCB00E79653 /* Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Phone.png; sourceTree = "<group>"; };
+		91AA4BB41AED007C00E79653 /* Mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mail.png; sourceTree = "<group>"; };
+		91AA4BB61AED00FE00E79653 /* Safari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Safari.png; sourceTree = "<group>"; };
+		91AA4BB81AED031D00E79653 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		91AA4BBA1AED0B2E00E79653 /* PhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneViewController.h; sourceTree = "<group>"; };
+		91AA4BBB1AED0B2E00E79653 /* PhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneViewController.m; sourceTree = "<group>"; };
+		91AA4BBE1AED0CB300E79653 /* phoneScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneScreen.png; sourceTree = "<group>"; };
+		91AA4BC31AED17D000E79653 /* RoboticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoboticsViewController.h; sourceTree = "<group>"; };
+		91AA4BC41AED17D000E79653 /* RoboticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoboticsViewController.m; sourceTree = "<group>"; };
+		91AA4BC51AED17D000E79653 /* RoboticsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoboticsViewController.xib; sourceTree = "<group>"; };
+		91AA4BC81AED190100E79653 /* UC BerkeleyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UC BerkeleyViewController.h"; sourceTree = "<group>"; };
+		91AA4BC91AED190100E79653 /* UC BerkeleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UC BerkeleyViewController.m"; sourceTree = "<group>"; };
+		91AA4BCA1AED190100E79653 /* UC BerkeleyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "UC BerkeleyViewController.xib"; sourceTree = "<group>"; };
+		91AA4BCD1AED193200E79653 /* YahooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooViewController.h; sourceTree = "<group>"; };
+		91AA4BCE1AED193200E79653 /* YahooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooViewController.m; sourceTree = "<group>"; };
+		91AA4BCF1AED193200E79653 /* YahooViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YahooViewController.xib; sourceTree = "<group>"; };
+		91AA4BD21AED1A3E00E79653 /* NestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestViewController.h; sourceTree = "<group>"; };
+		91AA4BD31AED1A3E00E79653 /* NestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestViewController.m; sourceTree = "<group>"; };
+		91AA4BD41AED1A3E00E79653 /* NestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestViewController.xib; sourceTree = "<group>"; };
+		91AA4BD71AED1AAB00E79653 /* PinterestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinterestViewController.h; sourceTree = "<group>"; };
+		91AA4BD81AED1AAB00E79653 /* PinterestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinterestViewController.m; sourceTree = "<group>"; };
+		91AA4BD91AED1AAB00E79653 /* PinterestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinterestViewController.xib; sourceTree = "<group>"; };
+		91AA4BDC1AED1B1400E79653 /* Machine LearningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Machine LearningViewController.h"; sourceTree = "<group>"; };
+		91AA4BDD1AED1B1400E79653 /* Machine LearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Machine LearningViewController.m"; sourceTree = "<group>"; };
+		91AA4BDE1AED1B1400E79653 /* Machine LearningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Machine LearningViewController.xib"; sourceTree = "<group>"; };
+		91AA4BE11AED1B5C00E79653 /* BackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewController.h; sourceTree = "<group>"; };
+		91AA4BE21AED1B5C00E79653 /* BackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewController.m; sourceTree = "<group>"; };
+		91AA4BE31AED1B5C00E79653 /* BackgroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundViewController.xib; sourceTree = "<group>"; };
+		91AA4BE61AED1D3100E79653 /* MailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		91AA4BE71AED1D3100E79653 /* MailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		91AA4BE81AED1D3100E79653 /* MailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailViewController.xib; sourceTree = "<group>"; };
+		91AA4BEB1AED1D6700E79653 /* SafariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariViewController.h; sourceTree = "<group>"; };
+		91AA4BEC1AED1D6700E79653 /* SafariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariViewController.m; sourceTree = "<group>"; };
+		91AA4BED1AED1D6700E79653 /* SafariViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SafariViewController.xib; sourceTree = "<group>"; };
+		91AA4BF01AED1D9900E79653 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		91AA4BF11AED1D9900E79653 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		91AA4BF21AED1D9900E79653 /* MusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		91AA4BF51AED1FA600E79653 /* robot_picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot_picture.png; sourceTree = "<group>"; };
+		91AA4BF71AED26B800E79653 /* pinterestPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterestPhoto.png; sourceTree = "<group>"; };
+		91AA4BF91AED27DE00E79653 /* nestPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nestPhoto.png; sourceTree = "<group>"; };
+		91AA4C031AED352E00E79653 /* yahooPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahooPhoto.png; sourceTree = "<group>"; };
+		91AA4C071AED83A400E79653 /* BerkeleyImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BerkeleyImage.png; sourceTree = "<group>"; };
+		CE5C32F51A7DA1A48CF23004 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DEE7DBEA439C7321A1FF2A48 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +202,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA8880BBCAEC7B4EF43BF1F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +216,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ACD7853A930629EB10B2D8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D4853E064143BBCFA23B761 /* Pods.debug.xcconfig */,
+				CE5C32F51A7DA1A48CF23004 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		916D2C9E1AF0E964001EAF91 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Music;
+			path = WWDC_App;
+			sourceTree = "<group>";
+		};
 		91AA4B421AEC31FE00E79653 = {
 			isa = PBXGroup;
 			children = (
+				916D2C9E1AF0E964001EAF91 /* Music */,
 				91AA4B4D1AEC31FE00E79653 /* WWDC_App */,
 				91AA4B631AEC31FE00E79653 /* WWDC_AppTests */,
 				91AA4B4C1AEC31FE00E79653 /* Products */,
+				6ACD7853A930629EB10B2D8C /* Pods */,
+				B745FFEB90097482EC9B5547 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,12 +258,17 @@
 			isa = PBXGroup;
 			children = (
 				91AA4B8C1AEC965D00E79653 /* Apps */,
-				91AA4B891AEC925900E79653 /* UIButtonWithIndex.h */,
-				91AA4B8A1AEC925900E79653 /* UIButtonWithIndex.m */,
+				91AA4BA51AECE12100E79653 /* UIButtonWithIndex.h */,
+				91AA4BA61AECE12100E79653 /* UIButtonWithIndex.m */,
+				916D2CA21AF0EE05001EAF91 /* AudioController.h */,
+				916D2CA31AF0EE05001EAF91 /* AudioController.m */,
 				91AA4B501AEC31FE00E79653 /* AppDelegate.swift */,
 				91AA4B781AEC3ED600E79653 /* RNPHomeScreenViewController.h */,
 				91AA4B841AEC7A5200E79653 /* HomeScreenModel.swift */,
 				91AA4B791AEC3ED600E79653 /* RNPHomeScreenViewController.m */,
+				916D2C911AF0AF21001EAF91 /* WelcomeViewController.h */,
+				916D2C921AF0AF21001EAF91 /* WelcomeViewController.m */,
+				916D2C931AF0AF21001EAF91 /* WelcomeViewController.xib */,
 				91AA4B7A1AEC3ED600E79653 /* RNPHomeScreenViewController.xib */,
 				91AA4B7D1AEC63A400E79653 /* HomePageViewController.h */,
 				91AA4B7E1AEC63A400E79653 /* HomePageViewController.m */,
@@ -161,15 +309,24 @@
 		91AA4B721AEC32CF00E79653 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				91AA4B751AEC36AA00E79653 /* Messages.png */,
+				9106BD861AEDA41A0041C2C2 /* machineLearningBackground.png */,
+				916D2C9C1AF0E31C001EAF91 /* bottomSafari.png */,
+				916D2C9A1AF0E2DE001EAF91 /* topSafari.png */,
+				91AA4BBD1AED0C5D00E79653 /* app_logos */,
 				91AA4B731AEC353F00E79653 /* Apple_logo_black.svg.png */,
-				91AA4B821AEC79A400E79653 /* Nest.png */,
-				91AA4BA31AECDF5300E79653 /* Robotics.png */,
-				91AA4B9D1AECD7D200E79653 /* Yahoo.png */,
-				91AA4BA11AECDCFF00E79653 /* UC Berkeley.png */,
-				91AA4B9F1AECD89400E79653 /* Pinterest.png */,
-				91AA4B801AEC6C3500E79653 /* home_screen.jpg */,
+				91AA4BF51AED1FA600E79653 /* robot_picture.png */,
+				91AA4C071AED83A400E79653 /* BerkeleyImage.png */,
+				9106BD771AED88C90041C2C2 /* roboticsPhoto.png */,
 				91AA4B701AEC32A900E79653 /* milkyway.png */,
+				916D2C961AF0DADC001EAF91 /* mailPhoto.png */,
+				916D2C981AF0DD8E001EAF91 /* messagesPhoto.png */,
+				91AA4BF71AED26B800E79653 /* pinterestPhoto.png */,
+				91AA4BF91AED27DE00E79653 /* nestPhoto.png */,
+				91AA4C031AED352E00E79653 /* yahooPhoto.png */,
+				9106BD7E1AED92500041C2C2 /* contacts_photo.jpg */,
+				9106BD841AED9F9F0041C2C2 /* backgroundFlagPhoto.png */,
+				91AA4BBE1AED0CB300E79653 /* phoneScreen.png */,
+				9106BD821AED9DE50041C2C2 /* backgroundPhoto.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -177,14 +334,83 @@
 		91AA4B8C1AEC965D00E79653 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
+				91AA4BC31AED17D000E79653 /* RoboticsViewController.h */,
+				91AA4BC41AED17D000E79653 /* RoboticsViewController.m */,
+				91AA4BC51AED17D000E79653 /* RoboticsViewController.xib */,
+				91AA4BC81AED190100E79653 /* UC BerkeleyViewController.h */,
+				91AA4BC91AED190100E79653 /* UC BerkeleyViewController.m */,
+				91AA4BCA1AED190100E79653 /* UC BerkeleyViewController.xib */,
+				91AA4BCD1AED193200E79653 /* YahooViewController.h */,
+				91AA4BCE1AED193200E79653 /* YahooViewController.m */,
+				91AA4BCF1AED193200E79653 /* YahooViewController.xib */,
+				91AA4BD21AED1A3E00E79653 /* NestViewController.h */,
+				91AA4BD31AED1A3E00E79653 /* NestViewController.m */,
+				91AA4BD41AED1A3E00E79653 /* NestViewController.xib */,
+				91AA4BD71AED1AAB00E79653 /* PinterestViewController.h */,
+				91AA4BD81AED1AAB00E79653 /* PinterestViewController.m */,
+				91AA4BD91AED1AAB00E79653 /* PinterestViewController.xib */,
+				91AA4BDC1AED1B1400E79653 /* Machine LearningViewController.h */,
+				91AA4BDD1AED1B1400E79653 /* Machine LearningViewController.m */,
+				91AA4BDE1AED1B1400E79653 /* Machine LearningViewController.xib */,
+				91AA4BE11AED1B5C00E79653 /* BackgroundViewController.h */,
+				91AA4BE21AED1B5C00E79653 /* BackgroundViewController.m */,
+				91AA4BE31AED1B5C00E79653 /* BackgroundViewController.xib */,
 				91AA4B951AECA08A00E79653 /* RNPApps.h */,
 				91AA4B901AEC96A800E79653 /* MhacksViewController.h */,
 				91AA4B911AEC96A800E79653 /* MhacksViewController.m */,
 				91AA4B921AEC96A800E79653 /* MhacksViewController.xib */,
 				91AA4B961AECA74500E79653 /* AppViewController.h */,
 				91AA4B971AECA74500E79653 /* AppViewController.m */,
+				91AA4BBA1AED0B2E00E79653 /* PhoneViewController.h */,
+				91AA4BBB1AED0B2E00E79653 /* PhoneViewController.m */,
+				91AA4BE61AED1D3100E79653 /* MailViewController.h */,
+				91AA4BE71AED1D3100E79653 /* MailViewController.m */,
+				91AA4BE81AED1D3100E79653 /* MailViewController.xib */,
+				91AA4BEB1AED1D6700E79653 /* SafariViewController.h */,
+				91AA4BEC1AED1D6700E79653 /* SafariViewController.m */,
+				91AA4BED1AED1D6700E79653 /* SafariViewController.xib */,
+				91AA4BF01AED1D9900E79653 /* MusicViewController.h */,
+				91AA4BF11AED1D9900E79653 /* MusicViewController.m */,
+				91AA4BF21AED1D9900E79653 /* MusicViewController.xib */,
+				9106BD791AED8C3D0041C2C2 /* ContactsViewController.h */,
+				9106BD7A1AED8C3D0041C2C2 /* ContactsViewController.m */,
+				9106BD7B1AED8C3D0041C2C2 /* ContactsViewController.xib */,
+				916D2CA91AF0F5B4001EAF91 /* YoutubeViewController.h */,
+				916D2CAA1AF0F5B4001EAF91 /* YoutubeViewController.m */,
+				91285BF61AEDAC91003DC664 /* MessagesViewController.h */,
+				91285BF71AEDAC91003DC664 /* MessagesViewController.m */,
+				91285BF81AEDAC91003DC664 /* MessagesViewController.xib */,
 			);
 			name = Apps;
+			sourceTree = "<group>";
+		};
+		91AA4BBD1AED0C5D00E79653 /* app_logos */ = {
+			isa = PBXGroup;
+			children = (
+				916D2CB41AF0FAA0001EAF91 /* Youtube.png */,
+				91AA4BB21AECFFCB00E79653 /* Phone.png */,
+				91AA4B9F1AECD89400E79653 /* Pinterest.png */,
+				91AA4BB81AED031D00E79653 /* Music.png */,
+				91AA4BB01AECFE1800E79653 /* UC_Berkeley.png */,
+				91AA4B821AEC79A400E79653 /* Nest.png */,
+				91AA4BA31AECDF5300E79653 /* Robotics.png */,
+				9106BD801AED93E40041C2C2 /* Contacts.png */,
+				91AA4B751AEC36AA00E79653 /* Messages.png */,
+				91AA4BB61AED00FE00E79653 /* Safari.png */,
+				91AA4BAA1AECE4C600E79653 /* Machine_Learning.png */,
+				91AA4BAC1AECEC1900E79653 /* Background.png */,
+				91AA4B9D1AECD7D200E79653 /* Yahoo.png */,
+				91AA4BB41AED007C00E79653 /* Mail.png */,
+			);
+			name = app_logos;
+			sourceTree = "<group>";
+		};
+		B745FFEB90097482EC9B5547 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7DBEA439C7321A1FF2A48 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,9 +420,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91AA4B6A1AEC31FE00E79653 /* Build configuration list for PBXNativeTarget "WWDC_App" */;
 			buildPhases = (
+				85321716932A837CF23A03EE /* Check Pods Manifest.lock */,
 				91AA4B471AEC31FE00E79653 /* Sources */,
 				91AA4B481AEC31FE00E79653 /* Frameworks */,
 				91AA4B491AEC31FE00E79653 /* Resources */,
+				037CFF3A3A4E3E74DFC4DD5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,18 +496,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				91AA4B7C1AEC3ED600E79653 /* RNPHomeScreenViewController.xib in Resources */,
+				91AA4BEA1AED1D3100E79653 /* MailViewController.xib in Resources */,
+				91AA4BDB1AED1AAB00E79653 /* PinterestViewController.xib in Resources */,
 				91AA4B761AEC36AA00E79653 /* Messages.png in Resources */,
+				91AA4BBF1AED0CB300E79653 /* phoneScreen.png in Resources */,
+				916D2C971AF0DADC001EAF91 /* mailPhoto.png in Resources */,
+				916D2C991AF0DD8E001EAF91 /* messagesPhoto.png in Resources */,
 				91AA4BA01AECD89400E79653 /* Pinterest.png in Resources */,
+				91AA4BE01AED1B1400E79653 /* Machine LearningViewController.xib in Resources */,
+				91AA4BB11AECFE1800E79653 /* UC_Berkeley.png in Resources */,
 				91AA4BA41AECDF5300E79653 /* Robotics.png in Resources */,
-				91AA4BA21AECDCFF00E79653 /* UC Berkeley.png in Resources */,
+				9106BD7F1AED92500041C2C2 /* contacts_photo.jpg in Resources */,
 				91AA4B941AEC96A800E79653 /* MhacksViewController.xib in Resources */,
+				91AA4BF81AED26B800E79653 /* pinterestPhoto.png in Resources */,
+				9106BD811AED93E40041C2C2 /* Contacts.png in Resources */,
+				91AA4BB31AECFFCB00E79653 /* Phone.png in Resources */,
+				9106BD851AED9F9F0041C2C2 /* backgroundFlagPhoto.png in Resources */,
 				91AA4B9E1AECD7D200E79653 /* Yahoo.png in Resources */,
+				9106BD7D1AED8C3D0041C2C2 /* ContactsViewController.xib in Resources */,
+				91AA4BD61AED1A3E00E79653 /* NestViewController.xib in Resources */,
 				91AA4B5B1AEC31FE00E79653 /* LaunchScreen.xib in Resources */,
+				916D2C9D1AF0E31C001EAF91 /* bottomSafari.png in Resources */,
+				916D2C9B1AF0E2DE001EAF91 /* topSafari.png in Resources */,
+				91AA4BCC1AED190100E79653 /* UC BerkeleyViewController.xib in Resources */,
+				91AA4BE51AED1B5C00E79653 /* BackgroundViewController.xib in Resources */,
+				91AA4BAB1AECE4C600E79653 /* Machine_Learning.png in Resources */,
 				91AA4B741AEC353F00E79653 /* Apple_logo_black.svg.png in Resources */,
+				916D2CB51AF0FAA0001EAF91 /* Youtube.png in Resources */,
+				91AA4C041AED352E00E79653 /* yahooPhoto.png in Resources */,
+				91285BFA1AEDAC91003DC664 /* MessagesViewController.xib in Resources */,
+				91AA4BB91AED031D00E79653 /* Music.png in Resources */,
+				91AA4BB51AED007C00E79653 /* Mail.png in Resources */,
 				91AA4B711AEC32A900E79653 /* milkyway.png in Resources */,
 				91AA4B831AEC79A400E79653 /* Nest.png in Resources */,
+				9106BD871AEDA41A0041C2C2 /* machineLearningBackground.png in Resources */,
+				91AA4C081AED83A400E79653 /* BerkeleyImage.png in Resources */,
+				91AA4BF41AED1D9900E79653 /* MusicViewController.xib in Resources */,
+				91AA4BEF1AED1D6700E79653 /* SafariViewController.xib in Resources */,
+				9106BD781AED88C90041C2C2 /* roboticsPhoto.png in Resources */,
+				91AA4BAD1AECEC1900E79653 /* Background.png in Resources */,
 				91AA4B581AEC31FE00E79653 /* Images.xcassets in Resources */,
-				91AA4B811AEC6C3500E79653 /* home_screen.jpg in Resources */,
+				916D2C951AF0AF21001EAF91 /* WelcomeViewController.xib in Resources */,
+				91AA4BD11AED193200E79653 /* YahooViewController.xib in Resources */,
+				91AA4BF61AED1FA600E79653 /* robot_picture.png in Resources */,
+				91AA4BFA1AED27DE00E79653 /* nestPhoto.png in Resources */,
+				91AA4BB71AED00FE00E79653 /* Safari.png in Resources */,
+				91AA4BC71AED17D000E79653 /* RoboticsViewController.xib in Resources */,
+				9106BD831AED9DE50041C2C2 /* backgroundPhoto.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,17 +555,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		037CFF3A3A4E3E74DFC4DD5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85321716932A837CF23A03EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91AA4B471AEC31FE00E79653 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AA4BD51AED1A3E00E79653 /* NestViewController.m in Sources */,
+				91AA4BE91AED1D3100E79653 /* MailViewController.m in Sources */,
+				91AA4BC61AED17D000E79653 /* RoboticsViewController.m in Sources */,
+				91AA4BDF1AED1B1400E79653 /* Machine LearningViewController.m in Sources */,
+				916D2CAB1AF0F5B4001EAF91 /* YoutubeViewController.m in Sources */,
+				9106BD7C1AED8C3D0041C2C2 /* ContactsViewController.m in Sources */,
+				916D2C941AF0AF21001EAF91 /* WelcomeViewController.m in Sources */,
 				91AA4B851AEC7A5200E79653 /* HomeScreenModel.swift in Sources */,
+				91285BF91AEDAC91003DC664 /* MessagesViewController.m in Sources */,
+				916D2CA41AF0EE05001EAF91 /* AudioController.m in Sources */,
+				91AA4BD01AED193200E79653 /* YahooViewController.m in Sources */,
+				91AA4BDA1AED1AAB00E79653 /* PinterestViewController.m in Sources */,
+				91AA4BCB1AED190100E79653 /* UC BerkeleyViewController.m in Sources */,
+				91AA4BEE1AED1D6700E79653 /* SafariViewController.m in Sources */,
+				91AA4BBC1AED0B2E00E79653 /* PhoneViewController.m in Sources */,
 				91AA4B7F1AEC63A400E79653 /* HomePageViewController.m in Sources */,
-				91AA4B8B1AEC925900E79653 /* UIButtonWithIndex.m in Sources */,
 				91AA4B931AEC96A800E79653 /* MhacksViewController.m in Sources */,
+				91AA4BF31AED1D9900E79653 /* MusicViewController.m in Sources */,
+				91AA4BA71AECE12100E79653 /* UIButtonWithIndex.m in Sources */,
 				91AA4B981AECA74500E79653 /* AppViewController.m in Sources */,
 				91AA4B511AEC31FE00E79653 /* AppDelegate.swift in Sources */,
+				91AA4BE41AED1B5C00E79653 /* BackgroundViewController.m in Sources */,
 				91AA4B7B1AEC3ED600E79653 /* RNPHomeScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +686,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Romi Phadte";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -409,6 +722,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Romi Phadte";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -416,6 +730,7 @@
 		};
 		91AA4B6B1AEC31FE00E79653 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D4853E064143BBCFA23B761 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -429,6 +744,7 @@
 		};
 		91AA4B6C1AEC31FE00E79653 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE5C32F51A7DA1A48CF23004 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
